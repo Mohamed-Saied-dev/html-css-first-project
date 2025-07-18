@@ -5,11 +5,13 @@
     <meta charset="Utf-8" />
     <title>my project</title>
     <meta name="discription" content="training" />
+    <!-- Mobile-friendly -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Main Css File-->
     <link rel="stylesheet" href="css/main.css">
     <!-- Rander all element normaly -->
     <link rel="stylesheet" href="css/Normalize.css" />
+    <!-- Awesome list link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,7 +22,7 @@
     <header>
         <div class="container">
 
-            <img class="logo" src="photo/logo.png" alt="logo" title="logo of Company">
+            <a href="#"><img class="logo" src="photo/logo.png" alt="logo" title="logo of Company"></a>
             <div class="links">
                 <span class="icons">
                     <span></span>
@@ -28,10 +30,10 @@
                     <span></span>
                 </span>
                 <ul>
-                    <li><a href="#Service">Service</a></li>
-                    <li><a href="#por">Portfolio</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#content">Contact</a></li>
+                    <li><a href="#serv">Service</a></li>
+                    <li><a href="#port">Portfolio</a></li>
+                    <li><a href="#abt">About</a></li>
+                    <li><a href="#cnt">Contact</a></li>
                 </ul>
             </div>
 
@@ -69,7 +71,7 @@
     </div>
     <!--End Fauture-->
     <!-- Start Services -->
-    <div class="services">
+    <div class="services" id="serv">
         <p>Don't be busy, be productive</p>
         <div class="container">
 
@@ -124,7 +126,7 @@
     </div>
     <!-- End Services-->
     <!-- Start Portifulio-->
-    <div class="porti">
+    <div class="porti" id="port">
         
             <div class="shadow">
                 <h1>Portifalio</h1>
@@ -162,7 +164,7 @@
     </div>
     <!-- End Portifulio-->
     <!-- Start About-->
-    <div class="about">
+    <div class="about" id="abt">
         <div class="shadow">
             <h1>about</h1>
             <p>Less is more work</p>
@@ -183,7 +185,7 @@
     </div>
     <!-- End About-->
     <!-- Start Contact -->
-    <div class="contact">
+    <div class="contact" id="cnt">
         <div class="shadow">
             <h1>Contact</h1>
             <p>We are born to create</p>
